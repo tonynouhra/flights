@@ -1,8 +1,9 @@
 // apiService.js
 import axios from 'axios';
 
-const API_KEY = '7b84a2717bmsh3b3057b21c547e9p1eb670jsn31e6997ac2a0';
-const API_HOST = 'sky-scrapper.p.rapidapi.com';
+const API_KEY = process.env.REACT_APP_API_KEY;
+const API_HOST = process.env.REACT_APP_API_HOST;
+
 
 export const apiClient = axios.create({
     baseURL: 'https://sky-scrapper.p.rapidapi.com',
