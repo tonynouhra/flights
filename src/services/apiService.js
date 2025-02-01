@@ -1,8 +1,8 @@
 // apiService.js
 import axios from 'axios';
 
-const API_KEY = process.env.REACT_APP_API_KEY;
-const API_HOST = process.env.REACT_APP_API_HOST;
+const API_KEY = process.env.REACT_APP_RAPID_API_KEY;
+const API_HOST = process.env.REACT_APP_RAPID_API_HOST;
 
 
 export const apiClient = axios.create({
